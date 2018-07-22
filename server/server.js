@@ -92,6 +92,7 @@ app.get('/user/profile',auth,(req,res)=>{ //middleware "auth" is used
 })
 
 
+
 const port = process.env.PORT || 3000;
 app.listen(port,()=>{
     console.log(`Listening on port: ${port}`);
